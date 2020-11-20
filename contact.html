@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <nav>
+        <h1><a href="index.html">L'Art et les Artistes</a></h1>
+        <a href="FAQ.html">FAQ</a> <a href="contact.html">Contact</a>
+        </br>
+    </nav>
+</header>
+<main>
+<fieldset>
+    <legend>Your info:</legend>
+<fieldset action="">
+    <div>
+        <label for="nom">Nom</label>
+        <input type="text" name="nom">
+    </div>
+    <div>
+    <label for="prenom">Prénom</label>
+    <input type="text" name="prenom">
+</div>
+<div>
+    <label for="age">Age</label>
+    <input type="number" name="age" id="age" min="1" max="100">
+</div>
+<div>
+    <label for="deplacement">Comment vous rendez-vous au travail?</label>
+    <input type="text" name="deplacement" id="deplacement" list="deplacements" placeholder="Faites votre choix">
+        <datalist id="deplacements" >
+            <option value="à pied"></option>
+            <option value="en voiture"></option>
+            <option value="en transport en commun"></option>
+        </datalist>
+    </div>
+    <div>
+    <label for="pet">Choisissez votre animal de compagnie</label>
+    <select name="pet" id="pet">
+        <option value="">Votre animal...</option>
+        <option value="chien">Chien</option>
+        <option value="chat">Chat</option>
+        <option value="lapin">Lapin</option>
+        <option value="tortue">Tortue</option>
+    </select> 
+</div>
+</fieldset>
+</form>
+
+    
+</main>
+<footer>
+
+
+</footer>
+</body>
+</html>
